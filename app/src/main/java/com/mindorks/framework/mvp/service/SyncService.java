@@ -62,6 +62,7 @@ public class SyncService extends Service {
         component.inject(this);
     }
 
+
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         AppLogger.d(TAG, "SyncService started");
